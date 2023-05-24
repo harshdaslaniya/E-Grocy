@@ -1,0 +1,29 @@
+.time-picker {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time-picker .react-time-picker__clock {
+    width: 80%;
+    max-width: 280px;
+    height: auto;
+  }
+  
+  .time-picker .react-time-picker__clockPointer {
+    background-color: #f44336;
+  }
+  
+  .time-picker .react-time-picker__clockNumber {
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  .time-picker .react-time-picker__clockNumber.react-time-picker__clockNumber--active {
+    color: #f44336;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
